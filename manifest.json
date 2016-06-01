@@ -1,0 +1,21 @@
+// copied from google's documentation
+
+{
+
+
+  "manifest_version": 2,
+
+  "name": "Blinders",
+  "description": "This extension blacks out all the images on the page",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "blackout.png",
+    "default_popup": "popup.html",
+    "default_title": "Remove Pictures"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
